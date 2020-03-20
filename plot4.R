@@ -2,7 +2,7 @@
 
 # load the data and open the png-file
 source("LoadData.R")    #extra script for loading the data
-png(file="plot4.png")
+png(file="plot4.png", width = 480, height = 480)
 
 # plot 2 times 2 pics per page
 par(mfcol = c(2, 2))

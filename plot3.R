@@ -2,7 +2,7 @@
 
 # load the data and open the png-file
 source("LoadData.R")    #extra script for loading the data
-png(file="plot3.png")
+png(file="plot3.png", width = 480, height = 480)
 
 #plot the first line, but not the y-axis
 plot(mydata$Sub_metering_1,

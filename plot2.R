@@ -2,7 +2,7 @@
 
 # load the data and open the png-file
 source("LoadData.R")    #extra script for loading the data
-png(file="plot2.png")
+png(file="plot2.png", width = 480, height = 480)
 
 #plot the line plot, but not the y-axis
 plot(mydata$Global_active_power,type = "l", 
