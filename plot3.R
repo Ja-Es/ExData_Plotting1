@@ -1,7 +1,7 @@
 ### plot3.R
 
 # load the data and open the png-file
-source("LoadData.R")
+source("LoadData.R")    #extra script for loading the data
 png(file="plot3.png")
 
 #plot the first line, but not the y-axis

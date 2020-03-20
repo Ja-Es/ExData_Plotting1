@@ -1,7 +1,7 @@
 ### plot2.R
 
 # load the data and open the png-file
-source("LoadData.R")
+source("LoadData.R")    #extra script for loading the data
 png(file="plot2.png")
 
 #plot the line plot, but not the y-axis

@@ -1,7 +1,7 @@
 ### plot4.R
 
 # load the data and open the png-file
-source("LoadData.R")
+source("LoadData.R")    #extra script for loading the data
 png(file="plot4.png")
 
 # plot 2 times 2 pics per page
