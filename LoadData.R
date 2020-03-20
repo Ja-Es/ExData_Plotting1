@@ -17,5 +17,3 @@ names(mydata) = names(myheader)
 # change first column into date format
 mydata$Date <- as.Date(mydata$Date, "%d/%m/%Y")
 
-# replace possible missing values coded with "?" with "NA" instead
-mydata <- gsub("//?","NA",mydata)
